@@ -1,0 +1,148 @@
+.container {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.imageContainer {
+  flex: 1;
+  height: 350px;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #202f77;
+  gap: 30px;
+}
+
+.date {
+  color: gray;
+}
+
+.category {
+  color: crimson;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.link {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .imageContainer {
+    display: none;
+  }
+}
+
+/* .container {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    height: 350px;
+    position: relative;
+  }
+  
+  .image {
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: #202f77;
+    gap: 30px;
+  }
+  
+  .date {
+    color: #f2c949;
+    font-weight: bold;
+    font-weight: 700;
+  }
+  
+  .category {
+    color: #202f77;
+    font-weight: 700;
+  }
+  
+  .desc {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--softTextColor);
+  }
+
+  .blog_info {
+    left: 12px;
+    bottom: 5px;
+  }
+
+  .author {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bold {
+    margin: 0 6px;
+    text-transform: uppercase;
+  }
+
+  .date {
+    color: #8b95a5;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .date::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #202f77;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+  }
+  
+  .link {
+    color: black;
+    width: max-content;
+    padding: 2px 0px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .imageContainer {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .textContainer {
+        text-align: center;
+        font-size: 1rem;
+    }
+  } */

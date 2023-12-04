@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .wrapper {
+    background-color: var(--softBg);
+    padding: 150px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+  }
+
+  .socialButton {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #202f77;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialButtonGoogle {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #202f77;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialButtonGithub {
+    background-color: #111;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoLogin {
+    margin: auto;
+  }
+
+  .socialButtonFacebook {
+    background-color: #087bea;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialButtonGoogle:hover {
+    background-color: #f2c949;
+    color: #202f77;
+    transition: .3s all;
+  }
+
+  .title {
+    font-size: 1.9rem;
+    text-align: center;
+    color: #202f77;
+    font-weight: bold;
+  }
+
+  .account {
+    text-align: center;
+    color: #202f77;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      padding: 50px 100px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .wrapper {
+      padding: 30px;
+    }
+  
+    .socialButton{
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }

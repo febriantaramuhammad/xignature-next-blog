@@ -1,0 +1,138 @@
+.container {
+    margin-top: 30px;
+  }
+  
+  /* .title {
+    font-size: 96px;
+    font-weight: 300;
+  } */
+  
+  .post {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .imgContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+  }
+  
+  .image {
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .postTitle {
+    font-size: 40px;
+    color: #202f77;
+  }
+  
+  .postDesc {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--softTextColor);
+  }
+
+  .blog_info {
+    left: 12px;
+    bottom: 5px;
+  }
+
+  .author {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bold {
+    margin: 0 6px;
+    text-transform: uppercase;
+  }
+
+  .date {
+    color: #8b95a5;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .date::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #202f77;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+  }
+
+  .read {
+    transition: color .3s ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: #202f77;
+  }
+  
+  .button {
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    background: #202f77;
+    color: #f2c949;
+  }
+
+  .button:hover {
+    background: #f2c949;
+    color: #202f77;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .title {
+      font-size: 72px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .title {
+      font-size: 64px;
+    }
+  
+    .imgContainer {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .title {
+      font-size: 36px;
+    }
+    .textContainer {
+      text-align: center;
+    }
+    .button {
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+    }
+  }
